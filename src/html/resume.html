@@ -9,17 +9,45 @@
   <link rel="stylesheet" href="../css/resume.css">
 </head>
 <body>
-  <h1>Resume</h1>
-  <p>Finnish CV</p>
-  <p>English CV</p>
-  <nav>
-    <nav>
-        <ul>
+  <!-- ---------container-------------- -->
+  <div class="container">
+    <!-- ---------header-------------- -->
+    <header>
+     <h1>Resume</h1>
+
+      <nav><!-- ------------links----------- -->
+      <ul>
           <li><a href="./about.html">About me</a></li>
           <li><a href="./projects.html">GitHub Projects</a></li>
           <li><a href="./resume.html">Resume</a></li>
         </ul>
       </nav>
-  </nav>
+    </header><!-- --------header END--------------- -->
+
+      <!-- -----------main------------ -->
+      <main  id="resumepage">
+        <h2>Finnish CV</h2>
+        <img src="../../images/cvfin.png" alt="Finnish CV" class="cv-image" onclick="openModal(this.src)">
+        
+        <h2>English CV</h2>
+        <img src="../../images/cveng.png" alt="English CV" class="cv-image" onclick="openModal(this.src)">
+      </main><!-- --------main END--------------- -->
+
+    <!-- --------footer--------------- -->
+    <footer>
+    <p>© 2024 Laura Levistö</p>
+    </footer>
+
+</div><!-- ----------container END------------- -->
+
+  <!-- ----------Modal------------- -->
+  <div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+
+  <!-- ----------js scripts------------- -->
+  <script src="../js/cvscript.js"></script>
+
 </body>
 </html>
