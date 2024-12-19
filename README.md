@@ -48,7 +48,7 @@ https://larrry85.github.io/larrryportfolio/
 ## 📂 Folder Structure
 ```
 larrryportfolio/          # Root directory of the project
-├── images/               # Directory for storing image files
+├── images/projects       # Directory for storing image files
 ├── src/                  # Source directory for organized subdirectories
 │   ├── css/              # Directory for CSS files
 │   │   ├── about.css     # CSS file for the about page
@@ -60,7 +60,8 @@ larrryportfolio/          # Root directory of the project
 │   │   ├── projects.html # HTML file for the projects page
 │   │   └── resume.html   # HTML file for the resume page
 │   ├── js/               # Directory for JavaScript files
-│   │   └── scripts.js    # JavaScript file for interactive features
+│   │   ├── cvscripts.js    # JavaScript file for interactive features
+│   │   └── projectscript.js    # JavaScript file for interactive features
 ├── .gitignore            # Git ignore file to exclude certain files from version control
 ├── index.html            # Main HTML file that serves as the entry point of the website
 └── README.md             # Markdown file with project information and instructions  

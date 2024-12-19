@@ -1,13 +1,21 @@
 /* -------projects.css---------- */
 
 .repo {
-    margin: 1rem 0;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  .repo a {
-    text-decoration: none;
-    color: #0073e6;
-  }
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.repo img {
+  max-width: 100px;
+  margin-right: 1rem;
+}
+
+.repo a {
+  text-decoration: none;
+  color: #0073e6;
+}
 /* ----------------- */
