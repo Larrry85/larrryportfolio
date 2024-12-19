@@ -24,15 +24,15 @@ To view this portfolio locally:
 ```
    git clone https://github.com/Larrry85e/larrryportfolio.git
 ```   
-2. Go to src directory:  
+2. Go to correct directory:  
 ```
-   cd src
+   cd larrryportfolio
 ```  
 3. Start srver:  
 ```
    python3 -m http.server
 ```  
-3. Open page in web browser:  
+4. Open page in web browser:  
 ```
    http://localhost:8000/
 ```
@@ -42,7 +42,7 @@ To view this portfolio locally:
 🌐 Live Preview
 Check out the live version here:
 ```
-https://Larrry85e.github.io/larrryportfolio/
+https://larrry85e.github.io/larrryportfolio/
 ```
 
 📂 Folder Structure
