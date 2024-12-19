@@ -1,10 +1,32 @@
 /* -------resume.css---------- */
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.cv-item {
+  text-align: center;
+}
+/* ----------------- */
 .cv-image {
   width: 100%;
   max-width: 300px; /* Smaller size for initial display */
   height: auto;
   display: block;
   margin: 1rem auto;
+}
+/* ----------------- */
+/* Remove underline from links and add hover effect */
+a {
+  text-decoration: none;
+  color: #0073e6;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005bb5;
 }
 /* ----------------- */
 /* Modal styles */
@@ -44,4 +66,11 @@
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+/* ----------------- */
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
 }
