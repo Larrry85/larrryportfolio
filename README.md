@@ -42,7 +42,7 @@ To view this portfolio locally:
 🌐 Live Preview
 Check out the live version here:
 ```
-https://larrry85e.github.io/larrryportfolio/
+https://larrry85.github.io/larrryportfolio/
 ```
 
 ## 📂 Folder Structure
