@@ -9,6 +9,9 @@ async function fetchRepos() {
     const repos = await response.json();
     const projectsDiv = document.getElementById("projects");
 
+    // Sort repositories by last updated date, newest first
+    repos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+
     repos.forEach(repo => {
       const repoDiv = document.createElement("div");
       repoDiv.className = "repo";
@@ -23,6 +26,7 @@ async function fetchRepos() {
           <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
           <p>${repo.description || "No description available."}</p>
           <p>⭐ Stars: ${repo.stargazers_count}</p>
+          <p>Last updated: ${new Date(repo.updated_at).toLocaleDateString()}</p>
         </div>
       `;
 
