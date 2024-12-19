@@ -53,12 +53,12 @@ larrryportfolio/          # Root directory of the project
 │   ├── css/              # Directory for CSS files
 │   │   ├── about.css     # CSS file for the about page
 │   │   ├── projects.css  # CSS file for the projects page
-│   │   ├── resume.css    # CSS file for the resume page
+│   │   ├── cv.css    # CSS file for the resume page
 │   │   └── styles.css    # General CSS file for common styles
 │   ├── html/             # Directory for HTML files
 │   │   ├── about.html    # HTML file for the about page
 │   │   ├── projects.html # HTML file for the projects page
-│   │   └── resume.html   # HTML file for the resume page
+│   │   └── cv.html   # HTML file for the resume page
 │   ├── js/               # Directory for JavaScript files
 │   │   ├── cvscripts.js    # JavaScript file for interactive features
 │   │   └── projectscript.js    # JavaScript file for interactive features
