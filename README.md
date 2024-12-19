@@ -68,9 +68,9 @@ larrryportfolio/          # Root directory of the project
 
 📧 Contact Me
 
-Email: levisto.laura@gmail.com
-LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/laura-levist%C3%B6-8bba06282/)
-GitHub: [Your GitHub Profile](https://github.com/Larrry85)
+Email: levisto.laura@gmail.com      
+LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/laura-levist%C3%B6-8bba06282/)    
+GitHub: [Your GitHub Profile](https://github.com/Larrry85)     
 
 📜 License
 This project is open-source and available under the MIT License.
