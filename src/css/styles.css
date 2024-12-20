@@ -1,6 +1,6 @@
 /* -------styles.css---------- */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -15,15 +15,17 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color: #000000; /* Black background */
+  background-color: #161a17;
 }
  /* ----------------- */
 header, footer {
-  background: #1e7e34; /* Dark green background */
-  color: #ffffff; /* White text color */
+  background: #2f4e36; /* Dark green background */
+  color: #101111; /* White text color */
   padding: 1rem;
   text-align: center;
+  font-weight: bold;
 }
+
 header nav ul {
   list-style-type: none; /* Remove bullet points */
   padding: 0; /* Remove default padding */
@@ -38,6 +40,7 @@ header nav a {
   color: #28a745; /* Primary green link color */
   margin: 0 1rem;
   text-decoration: none;
+  font-weight: bold;
 }
 header nav a:hover {
   color: #5cb85c; /* Light green hover color */
@@ -51,7 +54,7 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #1e7e34; /* Dark green background */
+  background:#2f4e36; /* Dark green background */
   color: #ffffff; /* White text color */
 }
  /* ----------------- */

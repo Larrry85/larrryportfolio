@@ -73,16 +73,7 @@ Email: levisto.laura@gmail.com
 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/laura-levist%C3%B6-8bba06282/)    
 GitHub: [Your GitHub Profile](https://github.com/Larrry85)     
 
-### 📜 License /* UPDATE THIS */
-This project is open-source and available under the MIT License.
 
-### **How to Customize** /* UPDATE THIS */  
-- Replace placeholders like `your.email@example.com` and `your-username` with your actual details.  
-- Add or remove sections based on what you want to highlight.  
-- Include links to your live portfolio and any additional social or professional platforms.  
-
-Let me know if you’d like help editing or formatting this! 😊
-
-## Coder
+## Coder 😊
 Laura Levistö     
 2024
