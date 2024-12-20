@@ -1,6 +1,6 @@
 /* -------styles.css---------- */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fira Code', monospace; /* Font for repo content */
   line-height: 1.6;
   margin: 0;
   padding: 0;

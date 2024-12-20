@@ -31,6 +31,7 @@
 
 .repo div {
   flex: 1;
+  font-family: 'Source Code Pro', monospace; /* Font for links */
 }
 
 /* Responsive Design */
