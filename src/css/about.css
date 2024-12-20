@@ -5,7 +5,7 @@
         "my-story my-story"
         "take-a-look contact-me";
     gap: 2rem;
-    padding: 4rem;
+    /*padding: 4rem;*/
 }
 
 #my-story {
@@ -61,4 +61,10 @@
     #take-a-look a {
         margin: 0.5rem 0; /* Add some vertical spacing */
     }
+    .about-item p {
+        margin-bottom: 1rem; /* Add space between paragraphs */
+        width: 100%; /* Ensure paragraphs take full width */
+        max-width: 100%; /* Ensure paragraphs do not exceed full width */
+        word-break: break-word; /* Ensure long words break properly */
+      }
 }
