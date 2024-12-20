@@ -15,6 +15,7 @@
     color: #0073e6;
     margin: 0 1rem;
     text-decoration: none; /* Remove underline */
+    padding-right: 1rem;
   }
   
   .about-item a:hover {
