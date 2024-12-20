@@ -1,21 +1,53 @@
 /* -------projects.css---------- */
-
 .repo {
-  margin: 1rem 0;
-  padding: 1rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem;
   border: 1px solid #ddd;
   border-radius: 5px;
   display: flex;
   align-items: center;
+  background-color: #f9f9f9;
+  width: 100%; /* Adjust width as needed */
+  max-width: 600px; /* Set a maximum width */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .repo img {
-  max-width: 100px;
-  margin-right: 1rem;
+  max-width: 150px; /* Increased size for better visibility */
+  margin-right: 1.5rem;
 }
 
 .repo a {
   text-decoration: none;
   color: #0073e6;
+}
+
+.repo a:hover {
+  color: #005bb5;
+}
+
+.repo div {
+  flex: 1;
+}
+/* ----------------- */
+/* Responsive Design */
+@media (max-width: 768px) {
+  .repo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .repo img {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .repo {
+    width: 90%; /* Make the repo div narrower on very narrow screens */
+    max-width: 300px; /* Ensure it doesn't exceed 300px */
+  }
 }
 /* ----------------- */
