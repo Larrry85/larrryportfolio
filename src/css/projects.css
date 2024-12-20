@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   background-color: #263d2b; /* Dark gray background for repo div */
-  color: #ffffff; /* White text color */
+  /*background-color: #232c25;  Dark gray background for repo div */
   width: 100%; /* Adjust width as needed */
   max-width: 600px; /* Set a maximum width */
   margin-left: auto;
