@@ -1,6 +1,6 @@
 /* -------styles.css---------- */
 body {
-  font-family: 'Fira Code', monospace; /* Font for repo content */
+  font-family: 'Fira Code', monospace;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -23,8 +23,20 @@ header, footer {
   color: #101111; /* White text color */
   padding: 1rem;
   text-align: center;
-  font-weight: bold;
 }
+header h1 {
+  font-weight: 700; /* Bold font weight */
+  font-size: 2.5rem; /* Increase font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  color: #28a745; /* Primary green color */
+}
+/*
+header h1 {
+  font-weight: 700; 
+  font-size: 2.5rem; /
+  text-shadow: 2px 2px 4px #28a745; 
+  color: #000000; 
+}*/
 
 header nav ul {
   list-style-type: none; /* Remove bullet points */
