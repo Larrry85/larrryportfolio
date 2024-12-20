@@ -2,44 +2,68 @@
 .about-grid {
     display: grid;
     grid-template-areas:
-      "my-story my-story"
-      "take-a-look contact-me";
+        "my-story my-story"
+        "take-a-look contact-me";
     gap: 2rem;
     padding: 2rem;
-  }
-  
-  #my-story {
+}
+
+#my-story {
     grid-area: my-story;
     text-align: center;
-  }
-  
-  #take-a-look {
+}
+
+#take-a-look {
     grid-area: take-a-look;
     text-align: center;
-  }
-  
-  #contact-me {
+}
+
+/* Flexbox for links */
+#take-a-look .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#contact-me {
     grid-area: contact-me;
     text-align: center;
-  }
-  
-  .about-item a {
+}
+
+.about-item a {
     color: #0073e6;
     margin: 0 1rem;
-    text-decoration: none; /* Remove underline */
-  }
-  
-  .about-item a:hover {
-    color: #005bb5; /* Change color on hover */
-  }
-      /* ----------------- */
-  /* Responsive Design */
-  @media (max-width: 768px) {
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.about-item a:hover {
+    color: #005bb5;
+    /* Change color on hover */
+}
+
+/* ----------------- */
+/* Responsive Design */
+@media (max-width: 768px) {
     .about-grid {
-      grid-template-areas:
-        "my-story"
-        "take-a-look"
-        "contact-me";
+        grid-template-areas:
+            "my-story"
+            "take-a-look"
+            "contact-me";
     }
-  }
-    /* ----------------- */
+}
+
+@media (max-width: 480px) {
+    #take-a-look .links {
+        flex-direction: column;
+        /* Stack vertically on narrow screens */
+    }
+
+    #take-a-look a {
+        margin: 0.5rem 0;
+        /* Add some vertical spacing */
+    }
+}
+
+/* ----------------- */
