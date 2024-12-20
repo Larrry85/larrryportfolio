@@ -5,12 +5,13 @@
         "my-story my-story"
         "take-a-look contact-me";
     gap: 2rem;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 #my-story {
     grid-area: my-story;
     text-align: center;
+    padding: 4rem;
 }
 
 #take-a-look {
