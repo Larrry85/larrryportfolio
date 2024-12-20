@@ -32,15 +32,13 @@
 }
 
 .about-item a {
-    color: #0073e6;
+    color: #28a745; /* Primary green color */
     margin: 0 1rem;
-    text-decoration: none;
-    /* Remove underline */
+    text-decoration: none; /* Remove underline */
 }
 
 .about-item a:hover {
-    color: #005bb5;
-    /* Change color on hover */
+    color: #5cb85c; /* Light green hover color */
 }
 
 /* ----------------- */
@@ -56,14 +54,10 @@
 
 @media (max-width: 480px) {
     #take-a-look .links {
-        flex-direction: column;
-        /* Stack vertically on narrow screens */
+        flex-direction: column; /* Stack vertically on narrow screens */
     }
 
     #take-a-look a {
-        margin: 0.5rem 0;
-        /* Add some vertical spacing */
+        margin: 0.5rem 0; /* Add some vertical spacing */
     }
 }
-
-/* ----------------- */

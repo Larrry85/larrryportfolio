@@ -2,11 +2,12 @@
 .repo {
   margin: 1.5rem 0;
   padding: 1.5rem;
-  border: 1px solid #ddd;
+  border: 1px solid #1e7e34; /* Dark green border */
   border-radius: 5px;
   display: flex;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #333333; /* Dark gray background for repo div */
+  color: #ffffff; /* White text color */
   width: 100%; /* Adjust width as needed */
   max-width: 600px; /* Set a maximum width */
   margin-left: auto;
@@ -20,17 +21,17 @@
 
 .repo a {
   text-decoration: none;
-  color: #0073e6;
+  color: #28a745; /* Primary green color */
 }
 
 .repo a:hover {
-  color: #005bb5;
+  color: #5cb85c; /* Light green hover color */
 }
 
 .repo div {
   flex: 1;
 }
-/* ----------------- */
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .repo {
@@ -48,6 +49,6 @@
   .repo {
     width: 90%; /* Make the repo div narrower on very narrow screens */
     max-width: 300px; /* Ensure it doesn't exceed 300px */
+    margin: 0 auto; /* Center the repo div and remove additional margin */
   }
 }
-/* ----------------- */

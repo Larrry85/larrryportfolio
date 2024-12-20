@@ -4,7 +4,8 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #ffffff; /* White text color */
+
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -14,11 +15,12 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  background-color: #000000; /* Black background */
 }
  /* ----------------- */
 header, footer {
-  background: #333;
-  color: #fff;
+  background: #1e7e34; /* Dark green background */
+  color: #ffffff; /* White text color */
   padding: 1rem;
   text-align: center;
 }
@@ -33,9 +35,12 @@ header nav ul li {
   margin: 0 1rem; /* Space between links */
 }
 header nav a {
-  color: #fff;
+  color: #28a745; /* Primary green link color */
   margin: 0 1rem;
   text-decoration: none;
+}
+header nav a:hover {
+  color: #5cb85c; /* Light green hover color */
 }
  /* ----------------- */
 main {
@@ -46,8 +51,8 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #333;
-  color: #fff;
+  background: #1e7e34; /* Dark green background */
+  color: #ffffff; /* White text color */
 }
  /* ----------------- */
 /* Responsive Design */
