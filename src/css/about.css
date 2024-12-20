@@ -1,1 +1,30 @@
 /* -------homepage.css---------- */
+/* -------about.css---------- */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .about-item {
+    text-align: center;
+  }
+  
+  .about-item a {
+    color: #0073e6;
+    margin: 0 1rem;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .about-item a:hover {
+    color: #005bb5; /* Change color on hover */
+  }
+      /* ----------------- */
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+    /* ----------------- */
