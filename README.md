@@ -82,3 +82,7 @@ This project is open-source and available under the MIT License.
 - Include links to your live portfolio and any additional social or professional platforms.  
 
 Let me know if you’d like help editing or formatting this! 😊
+
+## Coder
+Laura Levistö     
+2024
