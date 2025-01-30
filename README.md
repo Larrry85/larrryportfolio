@@ -1,21 +1,25 @@
 # My Portfolio
 
-Welcome to my portfolio! It has About me page, links to GitHub repositories, and my CV.      
-In this portfolio project I want to show how I'm doing readme files, and committing to git - at the same time presenting my skills in action.
+Welcome to my portfolio!
 
-### 🌟 Features /* UPDATE THIS */
+### 🌟 Features
 
 - **Responsive Design**: Accessible on all devices (desktop, tablet, and mobile).  
-- **Projects Section**: Highlights my best work with descriptions and links.  
-- **About Me**: Provides insight into my background and expertise.  
-- **Contact Form**: Easy way to reach me for collaboration or inquiries.  
+- **About Me**: Provides insight into my background. 
+- **Contact Me**: Way to reach me for collaboration.  
+- **Projects**: Presents my experience coding.   
+- **CV**: Finnish and English CV.      
 
-### 🛠️ Technologies Used /* UPDATE THIS */
+### 🛠️ Technologies Used
 
 - **HTML5**: For structuring content.  
 - **CSS3**: For styling and layout.  
 - **JavaScript**: For interactive features.  
-- [Optional] **Other tools**: Add frameworks or libraries you’ve used, like Bootstrap, Tailwind, or React.  
+- **GitHub API**: For fetching repository data.    
+- **Google Fonts**: For custom fonts.     
+- **Font Awesome**: For icons.      
+- **GitHub Copilot**: Assists in writing code faster by providing code suggestions and automating repetitive tasks.     
+
 
 ## 🚀 Getting Started
 
@@ -29,13 +33,17 @@ To view this portfolio locally:
 ```
    cd larrryportfolio
 ```  
-3. Start srver:  
+3. Start server:  
 ```
    python3 -m http.server
 ```  
 4. Open page in web browser:  
 ```
    http://localhost:8000/
+```
+5. Close the server:  
+```
+   Ctrl+C
 ```
 
 
@@ -47,24 +55,24 @@ https://larrry85.github.io/larrryportfolio/
 
 ## 📂 Folder Structure
 ```
-larrryportfolio/          # Root directory of the project
-├── images/projects       # Directory for storing image files
-├── src/                  # Source directory for organized subdirectories
-│   ├── css/              # Directory for CSS files
-│   │   ├── about.css     # CSS file for the about page
-│   │   ├── projects.css  # CSS file for the projects page
-│   │   ├── cv.css    # CSS file for the resume page
-│   │   └── styles.css    # General CSS file for common styles
-│   ├── html/             # Directory for HTML files
-│   │   ├── about.html    # HTML file for the about page
-│   │   ├── projects.html # HTML file for the projects page
-│   │   └── cv.html   # HTML file for the resume page
-│   ├── js/               # Directory for JavaScript files
-│   │   ├── cvscripts.js    # JavaScript file for interactive features
-│   │   └── projectscript.js    # JavaScript file for interactive features
-├── .gitignore            # Git ignore file to exclude certain files from version control
-├── index.html            # Main HTML file that serves as the entry point of the website
-└── README.md             # Markdown file with project information and instructions  
+larrryportfolio/              # Root directory of the project
+├── images/projects           # Directory for storing image files
+├── src/                      # Source directory for organized subdirectories
+│   ├── css/                  # Directory for CSS files
+│   │   ├── about.css         # CSS file for the about page
+│   │   ├── projects.css      # CSS file for the projects page
+│   │   ├── cv.css            # CSS file for the resume page
+│   │   └── styles.css        # General CSS file for common styles
+│   ├── html/                 # Directory for HTML files
+│   │   ├── about.html        # HTML file for the about page
+│   │   ├── projects.html     # HTML file for the projects page
+│   │   └── cv.html           # HTML file for the resume page
+│   ├── js/                   # Directory for JavaScript files
+│   │   ├── cvscripts.js      # JavaScript file for interactive features
+│   │   └── projectscript.js   # JavaScript file for interactive features
+├── .gitignore                # Git ignore file to exclude certain files from version control
+├── index.html                # Main HTML file that serves as the entry point of the website
+└── README.md                 # Markdown file with project information and instructions  
 ```
 
 ## 📧 Contact Me
@@ -76,4 +84,4 @@ GitHub: [Your GitHub Profile](https://github.com/Larrry85)
 
 ## Coder 😊
 Laura Levistö     
-2024
+2025
