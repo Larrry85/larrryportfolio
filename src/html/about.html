@@ -33,11 +33,7 @@
     <div class="about-grid"><!-- -----------grid------------ -->
 
       <div class="about-item" id="my-story">
-        <h2><i class="fa-solid fa-bug"></i> My story</h2>
-
-        <p>Why I want to code?</p>
-        <p>My goals.</p>
-        <p>My ordinary life.</p>
+        <!-- Story content will be inserted here -->
       </div>
 
       <div class="about-item" id="take-a-look">
@@ -67,6 +63,21 @@
   </footer>
 
 </div><!-- ----------container END------------- -->
+
+<script>
+  async function loadStory() {
+    try {
+      const response = await fetch('../html/story.html');
+      if (!response.ok) throw new Error('Failed to load story content');
+      const storyContent = await response.text();
+      document.getElementById('my-story').innerHTML = storyContent;
+    } catch (error) {
+      console.error('Error loading story content:', error);
+    }
+  }
+
+  loadStory();
+</script>
 
 </body>
 </html>
