@@ -7,8 +7,9 @@ Welcome to my portfolio!
 - **Responsive Design**: Accessible on all devices (desktop, tablet, and mobile).  
 - **About Me**: Provides insight into my background. 
 - **Contact Me**: Way to reach me for collaboration.  
-- **Projects**: Presents my experience coding.   
+- **Projects**: Presents my coding projects.   
 - **CV**: Finnish and English CV.      
+- **Feedback**: Feedback gathered from peers after school projects.           
 
 ### 🛠️ Technologies Used
 
@@ -84,4 +85,4 @@ GitHub: [Your GitHub Profile](https://github.com/Larrry85)
 
 ## Coder 😊
 Laura Levistö     
-2025
+2024 - 2026
