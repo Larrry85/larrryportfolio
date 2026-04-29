@@ -17,7 +17,7 @@ async function fetchRepos() {
       repoDiv.className = "repo";
 
       // Try repository name first, then lowercase version, then default
-      const imageUrl = `../../images/projects/${repo.name}.png`  || `../../images/projects/${repo.name}.jpeg` ;
+      const imageUrl = `../../images/projects/${repo.name}.png`;
       const imageUrlLowercase = `../../images/projects/${repo.name.toLowerCase()}.png`;
       const defaultImageUrl = `../../images/projects/default.png`; // Default image
 
